@@ -1,0 +1,167 @@
+body, html, #susi
+{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+}
+
+body
+{
+	background-image: url("../Backgrounds/1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#foot
+{
+	position: fixed;
+	bottom: 0%;
+	left: 5%;
+	border-top: 5px solid rgba(190, 190, 190, 0.75);
+	width: 90%;
+}
+
+#about, #copyright
+{
+	color:rgba(70, 70, 70, 0.9);
+	text-shadow: 0 0 5px rgba(185, 185, 185, 0.9);
+}
+
+/*#susi, #fpd
+{
+	background-color: rgba(0, 0, 255, 0.5);
+}*/
+
+legend
+{
+	text-align: left;
+	font-size: xx-large;
+}
+
+td{font-size: x-large;}
+
+#SU, #SI, #foot{background-color: rgba(255, 255, 255, 0.35);}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+	#fpd
+	{
+		position: absolute;
+		width: 70%;
+		left: 15%;
+		height: 50%;
+		top: 25%;
+	}
+	#ttl
+	{
+		font-size: 60px;
+		color: rgba(200, 200, 200, 0.9);
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+{
+	#fpd
+	{
+		position: absolute;
+		width: 70%;
+		left: 15%;
+		height: 50%;
+		top: 25%;
+	}
+	#ttl
+	{
+		font-size: 60px;
+		color: rgba(200, 200, 200, 0.9);
+	}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+{
+	#fpd
+	{
+		position: fixed;
+		width: 45%;
+		left: 50%;
+		height: 50%;
+		top: 25%;
+	}
+	#ttl
+	{
+		width: 20%;
+		position: fixed;
+		font-size: 60px;
+		color: rgba(200, 200, 200, 0.9);
+		left: 5%;
+		animation-name: ttlel;
+		animation-duration: 1s;
+	}
+	
+	
+	/*#tth
+	(
+		position: absolute;
+		left: 5%;
+		width: 90%;
+		border-bottom: 10px;
+		border-bottom-color: red;/*rgba(200, 200, 200, 0.9);*/
+		/*animation-name: tthel;
+		animation-duration: 5s;
+	}*/
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+{
+	#fpd
+	{
+		position: fixed;
+		width: 35%;
+		left: 60%;
+		height: 50%;
+		top: 25%;
+	}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+{
+	#fpd
+	{
+		position: fixed;
+		width: 35%;
+		left: 60%;
+		height: 50%;
+		top: 25%;
+	}
+}
+
+@keyframes ttlel
+{
+	0%{left:-20%;}
+	100%{left:5%;}
+}
+
+/*@keyframes tthel
+{
+	0%
+	{
+		left: -90;
+	}
+	100%
+	{
+		left: 5%;
+	}
+}*/
+
+
+
